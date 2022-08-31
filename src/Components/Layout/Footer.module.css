@@ -1,0 +1,15 @@
+.footer {
+  max-width: 144rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-color: #f0f0f0;
+  border-top: 0.1rem solid #3c4252;
+}
+.year {
+  font-size: 1.2rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+}

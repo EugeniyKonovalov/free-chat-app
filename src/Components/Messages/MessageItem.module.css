@@ -1,0 +1,45 @@
+.message {
+  display: flex;
+  margin: 1.8rem;
+}
+.flex-end {
+  justify-content: flex-end;
+  align-items: center;
+}
+.message-text {
+  margin: 0 1.8rem;
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+}
+
+.text {
+  padding: 1.4rem 1.4rem;
+  font-size: 1.8rem;
+  width: fit-content;
+  border-radius: 3.6rem;
+  margin-bottom: 1.2rem;
+}
+.user-text {
+  display: flex;
+  background-color: #3c4252;
+  color: #e6e6e6;
+}
+.you-text {
+  background-color: #e6e6e6;
+  color: #3c4252;
+}
+.time {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: #6d6d6d;
+  padding: 0 1.2rem;
+}
+.message-end {
+  align-items: flex-end;
+  justify-content: center;
+}

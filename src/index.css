@@ -1,0 +1,55 @@
+/*  
+colors: 
+dark:#2c2c2c,
+dark-gray:#3c4252,
+light-gray:#f5f5f5,
+middle-gray:#e0e0e0,
+border-cray:#e6e6e6
+blue-light:#04aff8,
+time-gray:#6d6d6d
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+.hero {
+  position: relative;
+  width: fit-content;
+}
+.online {
+  background-image: url("./assets/icon/isOnline.ico");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+}

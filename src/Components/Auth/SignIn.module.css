@@ -1,0 +1,17 @@
+.section-auth {
+  height: calc(100vh - 10rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth {
+  cursor: pointer;
+  border: 0.15rem solid #e6e6e6;
+  border-radius: 2.4rem;
+  width: 20rem;
+  height: 10rem;
+  font-size: 2.4rem;
+  box-shadow: 0 0 0.5rem;
+  color: #2c2c2c;
+}
