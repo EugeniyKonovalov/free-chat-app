@@ -2,8 +2,10 @@
   max-width: 144rem;
   margin: 0 auto;
   display: grid;
+  border-left: 1px solid #e6e6e6;
+  border-right: 1px solid #e6e6e6;
   grid-template-columns: 1fr 2fr;
-  height: calc(100vh - 10rem);
+  height: calc(100vh - 10.1rem);
 }
 
 .head {

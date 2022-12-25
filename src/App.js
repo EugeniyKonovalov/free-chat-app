@@ -10,7 +10,7 @@ import Loader from "./Components/UI/Loader";
 import ErrorNotification from "./Components/UI/ErrorNotification";
 import Modal from "./Components/UI/Modal";
 import { uiAction } from "./store/uiSlice";
-export const apiUrl = "https://chat-app-f4379-default-rtdb.firebaseio.com/";
+export const apiUrl = "https://chat-new-3f4a0-default-rtdb.firebaseio.com/";
 function App() {
   const [, loading] = useAuthState(auth);
   const dispatch = useDispatch();
@@ -60,7 +60,6 @@ function App() {
             createdAt: data[key].createdAt,
           });
         }
-        console.log(messagesData);
         dispatch(appAction.setMessages(messagesData));
       })
       .catch((err) =>

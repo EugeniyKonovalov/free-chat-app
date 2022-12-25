@@ -26,7 +26,7 @@ const Header = () => {
   const showUsersHandler = () => dispatch(uiAction.onToggleChat(true));
 
   return (
-    <header>
+    <header className={classes["header-section"]}>
       <nav className={classes.header}>
         <h2 className={classes.logo} onClick={homeRouteHandler}>
           Free Chat
